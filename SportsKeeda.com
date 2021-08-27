@@ -17,7 +17,7 @@ for(var i=0;i<list.length;i++){
 
 function generateRandomColor() {
   var letters = '0123456789ABCDEF';
-  var color = '#F';
+  var color = '#FF0';
   for (var i = 0; i < 3; i++) {
     color += letters[Math.floor(Math.random() * 16)];
   }
